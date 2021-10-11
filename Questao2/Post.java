@@ -3,7 +3,7 @@ public class Post {
 	    private String texto;
 	    private String link;
 	    private int numeroCurtidas;
-      private int numeroCompartilhamentos;
+            private int numeroCompartilhamentos;
 
       public Post(String texto, String link) {
 

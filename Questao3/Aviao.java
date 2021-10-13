@@ -1,6 +1,6 @@
 public class Aviao {
 	
-	    private int altitude;
+      private int altitude;
       private int velocidade;
    
  public int getAltitude() {

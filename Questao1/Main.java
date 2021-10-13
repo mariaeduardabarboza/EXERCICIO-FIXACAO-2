@@ -1,9 +1,16 @@
 public class Main {
 
  public static void main(String[] args) {
-System.out.println("                         ");
 
- Paciente paciente = new Paciente("038953815","Maria Eduarda Barboza Santos", "14/06/2004","Feminino", "Planserv", "Nenhuma", "O positivo");
+ Paciente paciente = new Paciente();
+
+ paciente.setCodigo("038953815");
+ paciente.setNome("Maria Eduarda Barboza Santos");
+ paciente.setDataNascimento("14/06/2004");
+ paciente.setSexo("Feminino");
+ paciente.setPlanoSaude("Planserv");
+ paciente.setAlergia("Nenhuma");
+ paciente.setTipoSanguineo("O positivo");
 
 System.out.println("Código:"+ paciente.getCodigo());
 System.out.println("Nome:"+paciente.getNome());

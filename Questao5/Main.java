@@ -1,6 +1,7 @@
-public class Main {
+ublic class Main {
     public static void main(String[] args) throws Exception {
-        Contato contato = new Contato("Maria");
+        Contato contato = new Contato();
+        contato.setNome ("Maria");
 
         System.out.println();
         contato.recebeMensagem("Oi");

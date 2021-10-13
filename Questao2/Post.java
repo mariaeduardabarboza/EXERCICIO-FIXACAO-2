@@ -5,16 +5,8 @@ public class Post {
 	    private int numeroCurtidas;
             private int numeroCompartilhamentos;
 
-      public Post(String texto, String link) {
-
-    this.texto = texto;
-    this.link = link;
-    this.numeroCurtidas = 0;
-    this.numeroCompartilhamentos = 0;
-}
-
 public String getTexto() {
- return this.texto;
+ return texto;
  }
 
  public void setTexto(String texto) {
@@ -22,7 +14,10 @@ public String getTexto() {
  }
 
  public String getLink() {
- return this.link;
+ return link;
+ }
+  public void setLink(String link) {
+ this.link = link;
  }
  public int getNumeroCurtidas() {
  return this.numeroCurtidas;

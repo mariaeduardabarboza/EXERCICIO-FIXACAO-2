@@ -2,7 +2,11 @@ public class Main {
     public static void main(String[] args) {
         
         System.out.println();
-        Produto produto = new Produto("Sal", 1.0f, 10);
+        Produto produto = new Produto();
+        produto.setNome("Sal");
+        produto.setPreco(1.0f);
+        produto.setQuantidade(10);
+
         System.out.println("Nome do produto: " + produto.getNome() + " custa R$" + produto.getPreco());
 
         System.out.println();

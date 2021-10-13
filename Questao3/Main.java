@@ -1,6 +1,8 @@
 public class Main{ 
 	  public static void main(String[] args) {
-	  Aviao aviao = new Aviao(10, 900);
+	  Aviao aviao = new Aviao();
+    aviao.setAltitude(10);
+    aviao.setVelocidade(900);
   
   
   System.out.println("Altitude inicial:"+aviao.getAltitude()+"Km");
@@ -16,4 +18,3 @@ System.out.println("                             ");
 
     }
   }
-

@@ -2,7 +2,7 @@ public class Main{
 	  public static void main(String[] args) {
 	  Post post = new Post();
     
-    post.setTexto("FORA BOLSONARO");
+    post.setTexto("Find the latest breaking news and information on the top stories, weather, business, entertainment, politics, and more.");
     post.setLink("https://edition.cnn.com/");
     
     post.curtir();

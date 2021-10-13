@@ -1,13 +1,8 @@
 public class Aviao {
 	
 	    private int altitude;
-            private int velocidade;
+      private int velocidade;
    
-   public Aviao(int altitude, int velocidade) {
-    this.altitude = altitude;
-    this.velocidade = velocidade;
-   }
- 
  public int getAltitude() {
  return altitude;
  }
@@ -28,5 +23,6 @@ public void reduzirVelocidade(int velocidade) {
 this.velocidade = this.getVelocidade() - velocidade;
  }
 }
+
 
   

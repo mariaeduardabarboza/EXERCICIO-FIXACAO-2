@@ -34,9 +34,9 @@ public String getTexto() {
  this.numeroCompartilhamentos = numeroCompartilhamentos;
  }
  public void curtir() {
-this.numeroCurtidas +=1;
+  numeroCurtidas +=1;
  }
 public void compartilhar() {
-this.numeroCompartilhamentos +=1;
+ numeroCompartilhamentos +=1;
  }
 }

@@ -1,7 +1,10 @@
-
 public class Main{ 
 	  public static void main(String[] args) {
-	  Post post = new Post("FORA BOLSONARO", "https://edition.cnn.com/" );
+	  Post post = new Post();
+    
+    post.setTexto("FORA BOLSONARO");
+    post.setLink("https://edition.cnn.com/");
+    
     post.curtir();
     post.curtir();
     post.curtir();

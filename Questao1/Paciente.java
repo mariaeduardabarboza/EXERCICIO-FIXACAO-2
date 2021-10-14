@@ -8,8 +8,18 @@ public class Paciente {
      private String alergia;
      private String tipoSanguineo;
 
+     public Paciente(String codigo, String nome, String dataNascimento,String sexo, String planoSaude, String alergia, String tipoSanguineo) {
+    this.codigo = codigo;
+    this.nome = nome;
+    this.dataNascimento = dataNascimento;
+    this.sexo = sexo;
+    this.planoSaude = planoSaude;
+    this.alergia = alergia;
+    this.tipoSanguineo = tipoSanguineo;
+     }
+
  public String getCodigo() {
- return codigo;
+ return this.codigo;
  }
 
  public void setCodigo(String codigo) {
@@ -17,7 +27,7 @@ public class Paciente {
  }
 
  public String getNome() {
- return nome;
+ return this.nome;
  }
 
  public void setNome(String nome) {
@@ -25,21 +35,21 @@ public class Paciente {
  }
 
  public String getDataNascimento() {
- return dataNascimento;
+ return this.dataNascimento;
  }
 
  public void setDataNascimento(String dataNascimento) {
  this.dataNascimento = dataNascimento;
  }
 public String getSexo() {
- return sexo; 
+ return this.sexo; 
  }
  public void setSexo(String sexo) {
  this.sexo = sexo;
  }
 
  public String getPlanoSaude() {
- return planoSaude;
+ return this.planoSaude;
  }
 
  public void setPlanoSaude(String planoSaude) {
@@ -47,17 +57,17 @@ public String getSexo() {
  }
 
  public String getAlergia() {
- return alergia;
+ return this.alergia;
  }
 
  public void setAlergia(String alergia) {
  this.alergia = alergia;
  }
 public String getTipoSanguineo() {
- return tipoSanguineo;
+ return this.tipoSanguineo;
  }
 
  public void setTipoSanguineo(String tipoSanguineo) {
  this.tipoSanguineo = tipoSanguineo;
- }
+ }     
  }

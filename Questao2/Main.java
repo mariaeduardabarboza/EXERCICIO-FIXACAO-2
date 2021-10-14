@@ -1,10 +1,6 @@
 public class Main{ 
 	  public static void main(String[] args) {
-	  Post post = new Post();
-    
-    post.setTexto("Find the latest breaking news and information on the top stories, weather, business, entertainment, politics, and more.");
-    post.setLink("https://edition.cnn.com/");
-    
+	  Post post = new Post("Find the latest breaking news and information on the top stories, weather, business, entertainment, politics, and more.", "https://edition.cnn.com/" );
     post.curtir();
     post.curtir();
     post.curtir();

@@ -5,6 +5,7 @@ public class Main {
 
         System.out.println();
         contato.recebeMensagem("Oi");
+        System.out.println("Mensagem enviada: Oi");
 
         System.out.println();
         System.out.println("Voce tem " + contato.getQuantidadeDeMensagensNaoLidas() + " mensagens nao lidas com "
